@@ -10,7 +10,6 @@ int main() {
     std::cin >> word;
     size_t found = sentence.find(word);
     if (found != std::string::npos) {
-        // Word is found, print the index of the matching substring
         std::cout << "Match found at index: " << found << std::endl;
     } else {
         std::cout << "No match." << std::endl;
